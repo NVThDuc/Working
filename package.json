@@ -1,0 +1,27 @@
+{
+  "name": "training_git",
+  "version": "1.0.0",
+  "description": "Start Working ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "nodemon": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NVThDuc/Working.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NVThDuc/Working/issues"
+  },
+  "homepage": "https://github.com/NVThDuc/Working#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
